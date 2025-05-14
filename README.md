@@ -1,1 +1,1 @@
-# settings for vscode
+# Settings for vscode
