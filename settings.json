@@ -1,0 +1,81 @@
+{
+  "window.zoomLevel": -1,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.startupEditor": "none",
+  "workbench.tree.enableStickyScroll": false,
+  "editor.stickyScroll.enabled": false,
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 0,
+  "explorer.compactFolders": false,
+  "editor.defaultFormatter": null,
+  "editor.formatOnSave": true,
+  "files.insertFinalNewline": true,
+  "prettier.printWidth": 80,
+  "workbench.settings.applyToAllProfiles": ["workbench.colorCustomizations"],
+  "window.titleBarStyle": "custom",
+  "gitlens.views.commitDetails.files.layout": "tree",
+
+  "files.watcherExclude": {
+    "**/.bloop": true,
+    "**/.metals": true,
+    "**/.ammonite": true
+  },
+  "editor.tabSize": 2,
+  /* "editor.rulers": [
+        80,
+        100,
+        120
+    ], */
+  "editor.rulers": [
+    {
+      "column": 80,
+      "color": "#53ff6a"
+    },
+    {
+      "column": 100,
+      "color": "#fcff34"
+    },
+    {
+      "column": 120,
+      "color": "#ff0000"
+    }
+  ],
+  "workbench.colorCustomizations": {
+    "terminal.background": "#00000000"
+  },
+
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scala]": {
+    "editor.defaultFormatter": "scalameta.metals"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "files.associations": {
+    "*.vue": "vue"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[kotlin]": {
+    // "editor.defaultFormatter": "fwcd.kotlin"
+    "editor.formatOnSave": false
+  },
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": true,
+    "scminput": false
+  },
+}
